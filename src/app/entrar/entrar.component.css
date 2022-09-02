@@ -9,5 +9,32 @@
 }
 
 .bg{
-    background-color: #d1f6f9;
+    background-color: #d1f6f9
+
+}
+
+.formulario {
+    max-width: 500px;
+    height: 400px;
+    min-height: auto;
+    border: 1px solid rgb(207, 191, 191);
+    border-radius: 15px;
+    box-shadow: 1px 10px 20px rgb(205, 186, 186);
+}    
+
+.btn {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 170%;
+    background-color: rgb(65, 92, 213);
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: white;
+    border: 1px solid;
+    color: rgb(224, 76, 140);
 }
