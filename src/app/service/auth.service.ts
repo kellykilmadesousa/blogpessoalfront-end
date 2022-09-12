@@ -23,6 +23,10 @@ export class AuthService {
 
   }
 
+  getByIdUser(id: number): Observable<User>{
+    return this.http.get<User>(`http://localhost:8080/usuarios/${id}`)  //lembrar que aqui é crase
+  }
+
   logado(){
     let ok: boolean = false
 
