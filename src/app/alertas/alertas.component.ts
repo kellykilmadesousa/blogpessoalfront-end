@@ -8,10 +8,10 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class AlertasComponent implements OnInit {
 
-  @Input() message: string 
-  @Input() type = 'success'
-
-   constructor(
+  @Input() message: string
+  @Input() tipo: string = 'info'
+ 
+  constructor(
     public modal: BsModalRef
   ) { }
 
@@ -19,7 +19,8 @@ export class AlertasComponent implements OnInit {
   }
 
   onClose(){
-    this.modal.hide()
+    this.modal.hide
   }
+
 
 }
